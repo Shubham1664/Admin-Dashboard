@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Data Table with Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-controls">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button id="searchButton" class="search-icon">Search</button>
+    </div>
+
+    <div class="top-right-buttons">
+      <button id="bulkDeleteButton" class="delete-btn">Bulk Delete</button>
+    </div>
+  </div>
+  </div>
+  <input type="checkbox" id="selectAllCheckbox"> Select/Deselect All
+  <table id="dataTable"></table>
+
+  <button id="deleteSelectedButton" class="delete-btn">Delete Selected</button>
+  <div id="paginationDiv"></div>
+  <script src="script.js"></script>
+  </div>
+</body>
+</html>
